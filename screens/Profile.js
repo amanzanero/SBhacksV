@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, Button, TextInput, StyleSheet } from 'react-native'
 
+
 class Inputs extends Component {
    state = {
       name: '',
@@ -33,35 +34,35 @@ class Inputs extends Component {
 		 <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
                placeholder = "Name"
-               placeholderTextColor = "#9a73ef"
+               placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
                onChangeText = {this.handleName}/>
 			   
             <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
-               placeholder = "Email"
-               placeholderTextColor = "#9a73ef"
+               placeholder = "Email(@.edu)"
+               placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
                onChangeText = {this.handleEmail}/>
             
             <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
                placeholder = "Age"
-               placeholderTextColor = "#9a73ef"
+               placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
                onChangeText = {this.handlePassword}/>
 			
 			<TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
-               placeholder = "Phone"
-               placeholderTextColor = "#9a73ef"
+               placeholder = "Phone#"
+               placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
                onChangeText = {this.handlePassword}/>
 			   
             <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
                placeholder = "Gender"
-               placeholderTextColor = "#9a73ef"
+               placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
                onChangeText = {this.handlePassword}/>
 			
@@ -91,11 +92,13 @@ const styles = StyleSheet.create({
    input: {
       margin: 15,
       height: 40,
-      borderColor: '#7a42f4',
-      borderWidth: 1
+      borderColor: 'gray',
+      borderWidth: 1,
+	  borderRadius: 4,
+	  color: 'black',
    },
    submitButton: {
-      backgroundColor: '#7a42f4',
+      backgroundColor: 'blue',
       padding: 10,
       margin: 15,
       height: 40,
