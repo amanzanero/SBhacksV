@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 
 
-export default class App extends React.Component {
+export default class PersonalInfo extends React.Component {
   constructor() {
      super();
      this.state = { screenWidth: Dimensions.get("window").width }; 
@@ -16,13 +16,12 @@ export default class App extends React.Component {
         </View>
         <Image 
             style = {{ width: this.state.screenWidth, height: 400 }}
-            source = {{'uri: assets/portrait.png'}}
+            source = {require('../assets/images/portrait.png')}
         />
         <View style = {{flex: 1, flexDirection: 'row', alignItems: 'center' }}>
-            <Text>Age: 25</Text>
-            <Text>Info</Text>
+            <Text>Dan        Age: 25</Text>
         </View>
-        <View>
+        <View style = {{ paddingBottom: 10 }}>
             <Text>Price Range: $800-$1200</Text>
             <Text>Sleeping hours: 11pm-12pm</Text>
             <Text>Drugs: Yes</Text>
