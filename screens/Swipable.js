@@ -72,18 +72,34 @@ export default class Swipable extends React.Component {
           Animated.spring(this.position, {
             toValue: { x: SCREEN_WIDTH + 100, y: gestureState.dy }
           }).start(() => {
-            this.setState({ currentIndex: this.state.currentIndex + 1 }, () => {
-              this.position.setValue({ x: 0, y: 0 })
-            })
-          })
+			//If there are no more profiles to show, we want to loop back to the the first profile
+			if (this.state.currentIndex == Users.length - 1) {
+				this.setState({ currentIndex: 0}, () => {
+					this.position.setValue({ x: 0, y: 0})
+				})
+			}
+			else {
+				this.setState({ currentIndex: this.state.currentIndex + 1 }, () => {
+					this.position.setValue({ x: 0, y: 0 })
+				})
+			})
+		  }
         }
         else if (gestureState.dx < -120) {
           Animated.spring(this.position, {
             toValue: { x: -SCREEN_WIDTH - 100, y: gestureState.dy }
           }).start(() => {
-            this.setState({ currentIndex: this.state.currentIndex + 1 }, () => {
-              this.position.setValue({ x: 0, y: 0 })
-            })
+			//If there are no more profiles to show, we want to loop back to the the first profile
+            if (this.state.currentIndex == Users.length - 1) {
+				this.setState({ currentIndex: 0}, () => {
+					this.position.setValue({ x: 0, y: 0})
+				})
+			}
+			else {
+				this.setState({ currentIndex: this.state.currentIndex + 1 }, () => {
+					this.position.setValue({ x: 0, y: 0 })
+				})
+			}
           })
         }
         else {
