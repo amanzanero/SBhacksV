@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Text, TextInput, StyleSheet, View, ScrollView } from 'react-native';
+import { Alert, Text, TextInput, StyleSheet, View, ScrollView, Button } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 // import RNPickerSelect from './debug'
 
@@ -391,6 +391,13 @@ export default class Preferences extends React.Component {
                 }}
                 useNativeAndroidPickerStyle={false}
                 />
+                <Button
+					onPress={() => this.props.navigation.navigate('AppContents')}
+					title="Submit"
+					color="black"
+               accessibilityLabel="Sign up for an account on our app."
+               backgroundColor="blue"
+					/>
             </ScrollView>
         );
     }
@@ -400,7 +407,7 @@ const styles = StyleSheet.create({
     container: {
         paddingTop: 30,
         backgroundColor: '#fff',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         paddingHorizontal: 10,
     },
 });

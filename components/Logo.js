@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {StyleSheet, View, Text, Image} from 'react-native';
-import logoImg from '../images/logo.png';
+import logoImg from '../assets/images/logo.png';
 
 export default class Logo extends Component {
   render() {
@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   image: {
-    width: 80,
-    height: 80,
+    width: 200,
+    height: 120,
   },
   text: {
     color: 'white',

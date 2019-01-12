@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types';
-import { View, Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native'
+import { View, Text, Button, TextInput, StyleSheet } from 'react-native'
 
 
 class Inputs extends Component {
@@ -67,13 +66,19 @@ class Inputs extends Component {
                autoCapitalize = "none"
                onChangeText = {this.handlePassword}/>
 			
-            <TouchableOpacity
+            {/* <TouchableOpacity
                style = {styles.submitButton}
-               onPress = {
-                  () => this.login(this.state.email, this.state.password)
-               }>
+               onPress={() => this.props.navigation.navigate('Creds')}
+               >
                <Text style = {styles.submitButtonText}> Submit </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
+            <Button
+					onPress={() => this.props.navigation.navigate('Prefs')}
+					title="Submit"
+					color="black"
+               accessibilityLabel="Sign up for an account on our app."
+               backgroundColor="blue"
+					/>
          </View>
       )
    }
