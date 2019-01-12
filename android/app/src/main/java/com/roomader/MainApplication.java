@@ -1,4 +1,4 @@
-package com.mynewappname;
+package com.roomader;
 
 import android.app.Application;
 

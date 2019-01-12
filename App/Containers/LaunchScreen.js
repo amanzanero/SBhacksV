@@ -3,16 +3,15 @@ import { StyleSheet, Text, View, Dimensions, Image, Animated, PanResponder } fro
 
 const SCREEN_HEIGHT = Dimensions.get('window').height
 const SCREEN_WIDTH = Dimensions.get('window').width
-// import Icon from 'react-native-vector-icons/Ionicons'
 const Users = [
   { id: "1", uri: require('./assets/1.jpg') },
-  // { id: "2", uri: require('./assets/2.jpg') },
-  // { id: "3", uri: require('./assets/3.jpg') },
-  // { id: "4", uri: require('./assets/4.jpg') },
-  // { id: "5", uri: require('./assets/5.jpg') },
+  { id: "2", uri: require('./assets/2.jpg') },
+  { id: "3", uri: require('./assets/3.jpg') },
+  { id: "4", uri: require('./assets/4.jpg') },
+  { id: "5", uri: require('./assets/5.jpg') },
 ]
 
-export default class LaunchScreen extends React.Component {
+export default class App extends React.Component {
 
   constructor() {
     super()
