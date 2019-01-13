@@ -87,9 +87,10 @@ export default Inputs
 
 const styles = StyleSheet.create({
    container: {
-      paddingTop: 23
+      paddingTop: 100
    },
    input: {
+      padding: 20,
       margin: 15,
       height: 40,
       borderColor: 'gray',
