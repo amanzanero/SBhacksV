@@ -18,7 +18,10 @@ Roommader users are asked to fill out a brief preference form when they sign up,
 School is stressful.  Finding roommates doesn't have to be.  That's why we made Roommader.
 
 # Gallery
-![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_1.PNG)
+![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_1_3_17.png)
+![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_2_17.png)
+![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_3_17.png)
+![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_4_17.png)
 
 Special thanks to the following libraries used to build this application:
 Roommader is a React Native app: https://facebook.github.io/react-native/
