@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Dimensions, Image, Animated, PanResponder } fro
 const SCREEN_HEIGHT = Dimensions.get('window').height
 const SCREEN_WIDTH = Dimensions.get('window').width
 const Users = [
-  { id: "1", uri: require('../assets/images/student0.jpg') },
+  { id: "1", uri: require('../assets/images/1.png') },
   { id: "2", uri: require('../assets/images/student2.jpg') },
   { id: "3", uri: require('../assets/images/student3.jpg') },
   { id: "4", uri: require('../assets/images/student4.jpg') },
