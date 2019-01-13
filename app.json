@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Roomader",
-    "slug": "Roomader",
+    "name": "Roommader",
+    "slug": "roommader",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -24,6 +24,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Stop struggling to look for roommates!",
+    "githubUrl": "https://github.com/nguy328/SBhacksV"
   }
 }
