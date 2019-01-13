@@ -23,8 +23,12 @@ School is stressful.  Finding roommates doesn't have to be.  That's why we made 
 ![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_3_17.png)
 ![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_4_17.png)
 
-Special thanks to the following libraries used to build this application:
+# Special thanks to the following libraries used to build this application:
+
 Roommader is a React Native app: https://facebook.github.io/react-native/
+
 Login Screen formatting: https://github.com/dwicao/react-native-login-screen
+
 Roommader is a React Native app: https://facebook.github.io/react-native/
+
 Swipable UI taken from: https://github.com/nathvarun/React-Native-Layout-Tutorial-Series/
