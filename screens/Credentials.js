@@ -50,21 +50,21 @@ class Inputs extends Component {
                placeholder = "Age"
                placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
-               onChangeText = {this.handlePassword}/>
+               onChangeText = {this.handleAge}/>
 			
 			<TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
                placeholder = "Phone#"
                placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
-               onChangeText = {this.handlePassword}/>
+               onChangeText = {this.handlePhone}/>
 			   
             <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
                placeholder = "Gender"
                placeholderTextColor = "#9EA0A4"
                autoCapitalize = "none"
-               onChangeText = {this.handlePassword}/>
+               onChangeText = {this.handleGender}/>
 			
             {/* <TouchableOpacity
                style = {styles.submitButton}
