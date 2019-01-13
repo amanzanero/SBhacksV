@@ -405,7 +405,7 @@ export default class Preferences extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        paddingTop: 100,
+        paddingTop: 80,
         backgroundColor: '#fff',
         // justifyContent: 'center',
         paddingHorizontal: 10,
