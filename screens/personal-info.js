@@ -18,7 +18,7 @@ export default class PersonalInfo extends React.Component {
             style = {{ width: this.state.screenWidth, height: 400 }}
             source = {require('../assets/images/portrait.png')}
         />
-        <View style = {{flex: 1, alignItems: 'center' paddingTop: 20 }}>
+        <View style = {{flex: 1, alignItems: 'center', paddingTop: 20 }}>
             <Text>Dan        Age: 25</Text>
         </View>
         <View style = {{ paddingBottom: 20 }}>
