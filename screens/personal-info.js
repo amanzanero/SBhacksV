@@ -18,10 +18,10 @@ export default class PersonalInfo extends React.Component {
             style = {{ width: this.state.screenWidth, height: 400 }}
             source = {require('../assets/images/portrait.png')}
         />
-        <View style = {{flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+        <View style = {{flex: 1, alignItems: 'center' }}>
             <Text>Dan        Age: 25</Text>
         </View>
-        <View style = {{ paddingBottom: 10 }}>
+        <View style = {{ paddingBottom: 30 }}>
             <Text>Price Range: $800-$1200</Text>
             <Text>Sleeping hours: 11pm-12pm</Text>
             <Text>Drugs: Yes</Text>
