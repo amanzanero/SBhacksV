@@ -16,6 +16,12 @@ If you or a loved one has been to college, you may be familiar with some of thes
 Roommader users are asked to fill out a brief preference form when they sign up, in which they can provide potential 'mates with an overview of their personality, lifestyle, and habits.  When 'swiping' through others' profiles, one sees an overview of their responses to the very same questions.
 
 School is stressful.  Finding roommates doesn't have to be.  That's why we made Roommader.
+## Usage
+Make sure to download the Expo Client app! 
+
+![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/expo.png)
+
+Visit [here](https://expo.io/@amanzanero/roommader) for a demo! After downloading, use a QR reader (Android) or your camera (ios) in order to scan the QR code and run the demo application in your Expo Client App.
 
 # Gallery
 ![alt text](https://raw.githubusercontent.com/nguy328/SBhacksV/master/assets/readme/gallery_1_3_17.png)
