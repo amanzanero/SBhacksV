@@ -75,7 +75,7 @@ export default class Preferences extends React.Component {
                     value: '4am-6am',
                 },
                 {
-                    label: '6m-8am',
+                    label: '6am-8am',
                     value: '6am-8am',
                 },
                 {
