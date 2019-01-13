@@ -162,13 +162,10 @@ export default class Swipable extends React.Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <View style={{ height: 60 }}>
-
-        </View>
         <View style={{ flex: 1 }}>
           {this.renderUsers()}
         </View>
-        <View style={{ height: 60 }}>
+        <View style={{ height: 90 }}>
 
         </View>
 

@@ -21,3 +21,4 @@ Special thanks to the following libraries used to build this application:
 Roommader is a React Native app: https://facebook.github.io/react-native/
 Login Screen formatting: https://github.com/dwicao/react-native-login-screen
 Roommader is a React Native app: https://facebook.github.io/react-native/
+Swipable UI taken from: https://github.com/nathvarun/React-Native-Layout-Tutorial-Series/

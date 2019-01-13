@@ -1,7 +1,6 @@
 import React from 'react';
 import { Alert, Text, TextInput, StyleSheet, View, ScrollView, Button } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
-// import RNPickerSelect from './debug'
 
 export default class Preferences extends React.Component {
     constructor(props) {

@@ -17,13 +17,13 @@ class Inputs extends Component {
       this.setState({ email: text })
    }
    handleAge = (text) => {
-      this.setState({ password: age })
+      this.setState({ age: text })
    }
    handlePhone = (text) => {
-      this.setState({ password: phone })
+      this.setState({ phone: text })
    }
    handleGender = (text) => {
-      this.setState({ password: gender })
+      this.setState({ gender: text })
    }
    // login = (email, pass) => {
       // alert('email: ' + email + ' password: ' + pass)
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
       paddingTop: 100
    },
    input: {
-      padding: 20,
+      paddingLeft: 20,
       margin: 15,
       height: 40,
       borderColor: 'gray',
