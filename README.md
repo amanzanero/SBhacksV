@@ -14,7 +14,9 @@ Starting a new year of college is stressful enough as it is.  New classes, old b
 If you or a loved one has been to college, yuo may be familiar with some of these questions.  Thankfully, Roommader is here to help.  With a user interface inspired by the dating apps ever so popular among college students, Roommader makes it easy for people to find compatible roommates and housemates.  
 
 Roommader users are asked to fill out a brief preference form when they sign up, in which they can provide potential 'mates with an overview of their personality, lifestyle, and habits.  When 'swiping' through others' profiles, one sees an overview of their responses to the very same questions.
+
 School is stressful.  Finding roommates doesn't have to be.
-Roommader.
+
+That's why we made Roommader.
 
 Special thanks to the following libraries used to build this application:
