@@ -4,13 +4,13 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {StyleSheet, View, Text, Image} from 'react-native';
-import logoImg from '../assets/images/logo.png';
+// import logoImg from '../assets/images/logo.png';
 
 export default class Logo extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image source={logoImg} style={styles.image} />
+        <Image source={require('../assets/images/logo.png')} style={styles.image} />
         <Text style={styles.text}>REACT NATIVE</Text>
       </View>
     );
